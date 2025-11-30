@@ -21,7 +21,7 @@ const skills: Skill[] = [
   { name: 'Tailwind', color: 'from-cyan-500 to-blue-500', icon: Wind, iconColor: '#06B6D4' },
   { name: 'Bootstrap', color: 'from-purple-500 to-indigo-500', icon: Grid3x3, iconColor: '#7952B3' },
   { name: 'Git', color: 'from-orange-500 to-red-500', icon: GitBranch, iconColor: '#F05032' },
-  { name: 'GitHub', color: 'from-gray-600 to-gray-800', icon: Github, iconColor: '#181717' },
+  { name: 'GitHub', color: 'from-gray-600 to-gray-800', icon: Github, iconColor: '#ffffff' },
   { name: 'REST API', color: 'from-green-500 to-emerald-500', icon: Workflow, iconColor: '#10B981' },
   { name: 'MVC', color: 'from-pink-500 to-rose-500', icon: Boxes, iconColor: '#EC4899' },
   { name: 'Ajax', color: 'from-blue-500 to-cyan-500', icon: Zap, iconColor: '#0EA5E9' },

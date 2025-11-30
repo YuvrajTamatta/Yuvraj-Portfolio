@@ -89,7 +89,7 @@ export const Hero = () => {
           className="flex gap-4 justify-center"
         >
           <a
-            href="https://github.com/yuvrraj"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full glass hover:bg-primary/20 transition-all duration-300 group"
@@ -97,7 +97,7 @@ export const Hero = () => {
             <Github className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a
-            href="https://www.linkedin.com/in/yuvraj-tamatta-43a71926a"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full glass hover:bg-primary/20 transition-all duration-300 group"
@@ -105,13 +105,13 @@ export const Hero = () => {
             <Linkedin className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a
-            href="mailto:yuvrajsinh123428@gmail.com"
+            href="#"
             className="p-3 rounded-full glass hover:bg-primary/20 transition-all duration-300 group"
           >
             <Mail className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
           </a>
           <a
-            href="tel:+918320109245"
+            href="#"
             className="p-3 rounded-full glass hover:bg-primary/20 transition-all duration-300 group"
           >
             <Phone className="h-6 w-6 text-muted-foreground group-hover:text-primary transition-colors" />
