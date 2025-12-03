@@ -57,10 +57,10 @@ export const Skills = () => {
             return (
               <motion.div
                 key={skill.name}
-                initial={{ opacity: 0, scale: 0.8 }}
+                initial={{ opacity: 0, scale: 2.5 }}
                 animate={isInView ? { opacity: 1, scale: 1 } : {}}
-                transition={{ duration: 0.4, delay: 0.05 * index }}
-                whileHover={{ scale: 1.1, y: -5 }}
+                transition={{ duration: 0.5, delay: 0.2 * index }}
+                whileHover={{ scale: 1.1, y: -1 }}
                 className="group relative"
               >
                 <div className={`absolute inset-0 bg-gradient-to-r ${skill.color} rounded-xl blur-lg opacity-30 group-hover:opacity-60 transition-opacity duration-300`} />
