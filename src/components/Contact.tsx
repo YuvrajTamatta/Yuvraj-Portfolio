@@ -3,6 +3,8 @@ import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import DownlaodButton from './DownloadButton';
+
 
 export const Contact = () => {
   const ref = useRef(null);
@@ -121,7 +123,11 @@ export const Contact = () => {
             <Mail className="mr-2 h-4 w-4 sm:h-5 sm:w-5" />
             Send Me an Email
           </Button>
+
+          <DownlaodButton />
+
         </motion.div>
+
 
         <motion.footer
           initial={{ opacity: 0 }}
