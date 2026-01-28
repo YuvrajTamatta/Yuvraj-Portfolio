@@ -1,16 +1,18 @@
 import React from 'react'
 
-const DownlaodButton = () => {
+const ViewButton = () => {
+  const handleViewPDF = () => {
+    window.open("/SEM-4/CS-24_ OS CH-3_Getting Started with Unix, Unix Shell Command.pdf", "_blank");
+  }
+
   return (
-    <a
-      href="/CS – 10_ SAD, CH.2 Software Quality Assurance and Testing.pdf"
-      download
+    <button 
+      onClick={handleViewPDF}
+      className="ml-8 p-3 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground glow-primary w-full sm:w-auto justify-center"
     >
-      <button className="ml-8 p-3 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground glow-primary w-full sm:w-auto justify-center">
-        Download Material
-      </button>
-    </a>
+      View Material
+    </button>
   );
 }
 
-export default DownlaodButton
+export default ViewButton
